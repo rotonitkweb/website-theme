@@ -1,0 +1,22 @@
+---
+layout: default
+modal-id: 1
+title: Social Initiative Projects (SIPs)
+subtitle: TEST SUBTITLE
+description: Set of projects that we try to do every month to shed some light on prevailing social matters world wide. We carry out social media awarness campaigns, live sessions, donation drives and much more. Check out various topics that we have covered uptil now!
+frequency: Monthly
+thumbnail: startup-framework-thumbnail.png
+sections:
+- title: EIA
+  description: tester desc 1
+  img: startup-framework.png
+  alt: No image
+  date: 24th aug
+  link: #
+- title: Police Brutality
+  description: tester desc 2
+  img: startup-framework.png
+  alt: No image
+  date: 24th july
+  link: #
+---

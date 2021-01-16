@@ -1,37 +1,195 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that.
-# This file is *NOT* reloaded automatically when you use 'bundle exec jekyll serve'. 
-# If you change this file, please restart the server process.
+url: rotonitkweb.github.io
+baseurl: /website-theme
 
 # Site settings
-# are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
+title: Rotaract Club NITK Chapter
+email: rotonitk@gmail.com
+description: Official website for the Rotaract Club NITK Chapter.
 
-#theme: jekyll-agency
-remote_theme: raviriley/agency-jekyll-theme
 
-url    : "" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "/agency-jekyll-theme-starter" # the subpath of your site, e.g. /blog
+# Team names, titles and social links
+people:
+- name: Rtr.Joel Chacko 
+  pic: 1.png
+  position: Director Club services
+  social:
+    - title: google-plus
+      url: #
+    - title: facebook
+      url: #
+    - title: linkedin
+      url: #
 
-title      : Rotaract Club NITK Chapter
-email      : rotonitk@gmail.com
-description: "Official website for the Rotaract Club NITK Chapter"
-author     : Nihal Haneef
-# logo:     #optional, defaults to site title
-  # path: assets\img\clients\creative-market.jpg
-  # height: 60 #height in px, defaults to 52px
+- name: Rtr. Vineetha Sunny  
+  pic: 2.png
+  position: President
+  social:
+    - title: google-plus
+      url: #
+    - title: facebook
+      url: #
+    - title: linkedin
+      url: #
 
-analytics:
-  google: #Google Analytics tracking code here
+- name: Rtr. Annlin Chacko 
+  pic: 3.png
+  position: Secretary
+  social:
+    - title: google-plus
+      url: #
+    - title: facebook
+      url: #
+    - title: linkedin
+      url: #
 
-collections:
-  portfolio:
+- name: Rtr. Sharon Tony
+  pic: 4.png
+  position: Joint Convenor
+  social:
+    - title: google-plus
+      url: #
+    - title: facebook
+      url: #
+    - title: linkedin
+      url: #
 
+- name: Rtr. Derek Joel
+  pic: 5.png
+  position: Vice President
+  social:
+    - title: google-plus
+      url: #
+    - title: facebook
+      url: #
+    - title: linkedin
+      url: #
+
+- name: Rtr. Sathwik Kanneganti
+  pic: 6.png
+  position: Joint Secretary
+  social:
+    - title: google-plus
+      url: #
+    - title: facebook
+      url: #
+    - title: linkedin
+      url: #
+
+- name: Rtr. Tejas Chenoth
+  pic: 7.png
+  position: Sergeant at Arms
+  social:
+    - title: google-plus
+      url: #
+    - title: facebook
+      url: #
+    - title: linkedin
+      url: #
+
+- name: Rtr. Anamika Karthy
+  pic: 8.jpg
+  position: Director Vocational Services
+  social:
+    - title: google-plus
+      url: #
+    - title: facebook
+      url: #
+    - title: linkedin
+      url: #
+
+- name: Rtr. Chaitra Satheesh
+  pic: 9.png
+  position: Director Community Services
+  social:
+    - title: google-plus
+      url: #
+    - title: facebook
+      url: #
+    - title: linkedin
+      url: #
+
+- name: Rtr. Ananthu M Nair
+  pic: 10.png
+  position: Chairman Public Relations
+  social:
+    - title: google-plus
+      url: #
+    - title: facebook
+      url: #
+    - title: linkedin
+      url: #
+
+- name: Rtr. Sudarshan Sundar
+  pic: 11.png
+  position: Chairman Alumni 
+  social:
+    - title: google-plus
+      url: #
+    - title: facebook
+      url: #
+    - title: linkedin
+      url: #
+
+- name: Rtr. Nihal Haneef
+  pic: 12.png
+  position: Chairman Technical
+  social:
+    - title: google-plus
+      url: #
+    - title: facebook
+      url: #
+    - title: linkedin
+      url: #
+
+- name: Rtr. Gayatri Sajeev
+  pic: 13.png
+  position: Director International Affairs
+  social:
+    - title: google-plus
+      url: #
+    - title: facebook
+      url: #
+    - title: linkedin
+      url: #
+
+- name: Rtr. Vineetha Wilson
+  pic: 14.png
+  position: Chairwoman Cultural 
+  social:
+    - title: google-plus
+      url: #
+    - title: facebook
+      url: #
+    - title: linkedin
+      url: #
+
+- name: Rtr. Liz George
+  pic: 15.png
+  position: Treasurer
+  social:
+    - title: google-plus
+      url: #
+    - title: facebook
+      url: #
+    - title: linkedin
+      url: #
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: facebook
+    url: https://www.facebook.com/RotaractClubNITK/
+  - title: instagram
+    url: https://www.instagram.com/rotaract_nitk/
+  - title: youtube
+    url: https://www.youtube.com/channel/UChDkd089CGeiYpAySOdcE0A
+  - title: linkedin
+    url: https://www.linkedin.com/company/rotaract-club-nitk-chapter/
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: NITK Surathkal
+  - line: P.O Srinivasnagar, Karnataka, India 575025
+
+# Build settings
 markdown: kramdown
-
-plugins:
-  - jekyll-remote-theme
+permalink: pretty
